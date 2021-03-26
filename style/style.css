@@ -27,3 +27,11 @@ nav ul li {
 nav ul li:nth-of-type(7) {
   margin-left: 100px;
 }
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li:nth-of-type(7) {
+    margin-left: 0px;
+  }
+}
