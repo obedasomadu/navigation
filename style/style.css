@@ -1,11 +1,13 @@
 nav {
   max-width: 980px;
   background-color: #383639;
+  padding: ;
 }
 nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0px 0px;
 }
 nav a {
   color: #fff;
@@ -15,4 +17,13 @@ nav a {
 
 nav a:hover {
   color: #5dbbfb;
+}
+nav ul li {
+  padding: 10px 15px;
+  width: 100%;
+  border: solid #000 1px;
+  text-align: center;
+}
+nav ul li:nth-of-type(7) {
+  margin-left: 100px;
 }
